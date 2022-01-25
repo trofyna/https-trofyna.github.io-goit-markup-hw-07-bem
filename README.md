@@ -3,3 +3,7 @@
 
 <!-- Structure for BEM -->
 
+BLOCK 
+1  logo
+2   logo__text  (old:logo-color-black)
+        

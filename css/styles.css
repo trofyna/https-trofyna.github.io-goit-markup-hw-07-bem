@@ -100,7 +100,7 @@ header .logo {
     color: var(--act-color);
 }
 
-.logo-color-black {
+.logo__text  {
     color: var(--main-color);
     display: inline-block;
     margin-right: 5px;
