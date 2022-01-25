@@ -100,13 +100,13 @@ header .logo {
     color: var(--act-color);
 }
 
-.logo__text  {
+.logo__text--black {
     color: var(--main-color);
     display: inline-block;
     margin-right: 5px;
 }
 
-.logo-color-white {
+.logo__text--white {
     color: #FFFFFF;
 }
 .contacts li a,
