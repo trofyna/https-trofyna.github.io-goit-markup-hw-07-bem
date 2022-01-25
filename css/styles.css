@@ -107,7 +107,7 @@ header .logo {
 }
 
 .logo__text--white {
-    color: #FFFFFF;
+    color: var(--prim-white-background);
 }
 .contacts li a,
 .links li a {
