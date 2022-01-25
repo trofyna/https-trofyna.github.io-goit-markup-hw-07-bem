@@ -71,7 +71,7 @@ body{
 /* ===============Header styles 🧐 starts here========== */
 
 nav,
-.links,
+.site-nav__links,
 .contacts,
 header .container {
     display: flex;
@@ -110,7 +110,7 @@ header .logo {
     color: var(--prim-white-background);
 }
 .contacts li a,
-.links li a {
+.site-nav__links li a {
     margin-right: 50px;
     display: inline-block;
     padding: 30.5px 0;
@@ -123,7 +123,7 @@ header .logo {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.links li:last-child a {
+.site-nav__links li:last-child a {
     margin-right: 0px;
     
 }
@@ -139,8 +139,8 @@ header .logo {
 
 .contacts li a:hover,
 .contacts li a:focus,
-.links li a:focus,
-.links li a:hover {
+.site-nav__links li a:focus,
+.site-nav__links li a:hover {
     color: var(--act-color);
 }
 /* .a-mail:hover .icon-envelopehover-svg {
