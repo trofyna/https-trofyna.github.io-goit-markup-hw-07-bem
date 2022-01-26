@@ -169,13 +169,11 @@ header .logo {
     fill:currentColor;
 }
 
-.link-nav-index,
-.link-nav-portfolio {
+.site-nav__item--active {
     position: relative;
 }
 
-.link-nav-index::after,
-.link-nav-portfolio::after {
+.site-nav__item--active::after {
     position: absolute;
     bottom: -1px;
     transform: translateY(100%);

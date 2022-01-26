@@ -17,13 +17,18 @@ BLOCK 3 site-nav
      ELEM 3__1  site-nav__links
                 (old:links)
     ELEM 3__2   site-nav__item
-                (old:link-nav-index) in PORTF: link-nav-index
+             MODIFICATOR  3__2--1   site-nav__item--active
+                (old:link-nav-index) in PORTF: link-nav
     ELEM 3__3   site-nav__item
+            MODIFICATOR  3__3--1   site-nav__item--active
                 (old:link-nav) in PORTF:  link-nav-portfolio
     ELEM 3__4   site-nav__item
                 (old:link-nav)
 
 
+                
+
+    BLOCK 5
 
  -->
 
