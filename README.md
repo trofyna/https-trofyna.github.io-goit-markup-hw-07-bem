@@ -4,17 +4,16 @@
 <!-- Structure for BEM -->
 
 <!-- 
-
 BLOCK 1 page-header
 BLOCK 2  container
 BLOCK 3 site-nav
-    BLOCK 4.0  logo
+  BLOCK 4.0  logo
         ELEM 4__1  logo__text  
              MODIFICATOR  4__1--1   logo__text--black
                             (old:logo-color-black)
              MODIFICATOR  4__1--2    logo__text--white   
                             (old:logo-color-white)
-     ELEM 3__1  site-nav__links
+    ELEM 3__1  site-nav__links
                 (old:links)
     ELEM 3__2   site-nav__item
              MODIFICATOR  3__2--1   site-nav__item--active
@@ -26,9 +25,15 @@ BLOCK 3 site-nav
                 (old:link-nav)
 
 
-                
-
-    BLOCK 5
+BLOCK 5 auth-nav
+    ELEM 5__1  auth-nav__links
+                (old:a-mail)
+    ELEM 5__2   auth-nav__img
+             (old:icon-envelopehover-svg)
+    ELEM 5__3  auth-nav__links
+                (old:a-mail)
+    ELEM 5__4   auth-nav__img
+             (old:icon-mobile-svg)
 
  -->
 
