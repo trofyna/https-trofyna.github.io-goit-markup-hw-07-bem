@@ -28,7 +28,7 @@ BLOCK 3 site-nav (old - не было class)
 
 
 BLOCK 5 auth-nav 
-            (old:contacts)
+    (old:contacts)
     ELEM 5__1  auth-nav__links
                 (old:a-mail)
     ELEM 5__2   auth-nav__img
@@ -37,6 +37,14 @@ BLOCK 5 auth-nav
                 (old:a-mail)
     ELEM 5__4   auth-nav__img
              (old:icon-mobile-svg)
+
+BLOCK 6 hero
+    ELEM 6__1  hero__title
+                (hero-title)
+
+
+
+
 
  -->
 

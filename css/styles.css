@@ -195,7 +195,7 @@ header .logo {
     background-size: cover;
     }
 
-.hero-title {
+.hero__title {
     font-size: 44px;
     text-transform: uppercase;
     max-width: 650px;
