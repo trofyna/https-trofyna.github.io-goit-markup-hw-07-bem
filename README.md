@@ -43,6 +43,8 @@ BLOCK 6 hero
                 (old:hero-title)
     ELEM 6__2  hero__btn
                  (old:hero-btn)
+BLOCK 7 backdrop is-hidden
+BLOCK 8 modal
 
 
 
