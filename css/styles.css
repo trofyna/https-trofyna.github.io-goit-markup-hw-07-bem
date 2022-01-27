@@ -109,7 +109,7 @@ header .logo {
 .logo__text--white {
     color: var(--prim-white-background);
 }
-.auth-nav li a,
+.auth-nav__links,
 .site-nav__links li a {
     margin-right: 50px;
     display: inline-block;
@@ -128,7 +128,7 @@ header .logo {
     
 }
 
-.auth-nav li a {
+.auth-nav__links {
     margin: 0 0 0 50px;
     color: var(--sec-color);
     transition-property: color;
@@ -137,8 +137,8 @@ header .logo {
 
 }
 
-.auth-nav li a:hover,
-.auth-nav li a:focus,
+.auth-nav__links:hover,
+.auth-nav__links:focus,
 .site-nav__links li a:focus,
 .site-nav__links li a:hover {
     color: var(--act-color);
