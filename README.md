@@ -53,6 +53,7 @@ BLOCK 8 modal
                 (old: close)
     ELEM 8__4  modal__send
                 ( old:send-to-modal)
+        BLOCK 9.0 FORM
     ELEM 8__5  modal__form
                 ( old:js-speaker-formM)
     
