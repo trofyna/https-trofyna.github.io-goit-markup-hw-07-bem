@@ -45,6 +45,8 @@ BLOCK 6 hero
                  (old:hero-btn)
 BLOCK 7 backdrop is-hidden
 BLOCK 8 modal
+    ELEM 8__1  modal__exit
+                (old:exit)
 
 
 
