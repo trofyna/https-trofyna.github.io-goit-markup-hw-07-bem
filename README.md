@@ -51,6 +51,11 @@ BLOCK 8 modal
                 (old: btn-exit-modal)
     ELEM 8__3  modal__img
                 (old: close)
+    ELEM 8__4  modal__send
+                ( old:send-to-modal)
+    ELEM 8__5  modal__form
+                ( old:js-speaker-formM)
+    
 
 
 
