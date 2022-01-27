@@ -40,7 +40,10 @@ BLOCK 5 auth-nav
 
 BLOCK 6 hero
     ELEM 6__1  hero__title
-                (hero-title)
+                (old:hero-title)
+    ELEM 6__2  hero__btn
+                 (old:hero-btn)
+
 
 
 

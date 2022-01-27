@@ -206,7 +206,7 @@ header .logo {
     margin: 0 auto;
     margin-bottom: 30px;
 }
-.hero-btn {
+.hero__btn {
     /* position: relative; */
     padding: 10px 32px;
     background: var(--act-color);
@@ -223,8 +223,8 @@ header .logo {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--prim-white-background);
