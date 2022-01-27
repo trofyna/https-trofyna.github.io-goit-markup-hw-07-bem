@@ -27,7 +27,8 @@ BLOCK 3 site-nav
                 (old:link-nav)
 
 
-BLOCK 5 auth-nav
+BLOCK 5 auth-nav 
+            (old:contacts)
     ELEM 5__1  auth-nav__links
                 (old:a-mail)
     ELEM 5__2   auth-nav__img
