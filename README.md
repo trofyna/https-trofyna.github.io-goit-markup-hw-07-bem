@@ -7,6 +7,8 @@
 BLOCK 1 page-header
 BLOCK 2  container
 BLOCK 3 site-nav
+--------------------Это и есть МИКС.------------------
+--В этом месте блок logo стал ещё и элементом  BLOCK 3 site-nav----
   BLOCK 4.0  logo
         ELEM 4__1  logo__text  
              MODIFICATOR  4__1--1   logo__text--black
