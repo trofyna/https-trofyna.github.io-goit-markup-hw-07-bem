@@ -54,11 +54,9 @@ BLOCK 8 modal
                 (old: btn-exit-modal)
     ELEM 8__3  modal__img
                 (old: close)
-    ELEM 8__4  modal__send
-                ( old:send-to-modal)
-    
-    ELEM 8__5  modal__form
-                 ( old:div> send-to-modal)
+        
+    ELEM 8__4  modal__form
+                 ( old: div> send-to-modal)
                 
         BLOCK 9.0 form
                 (old:modal-form;
@@ -66,7 +64,9 @@ BLOCK 8 modal
                   js-speaker-formM)
 
        ELEM 9__1  form__title
-                   ( old:h3> send-to-modal)
+                   ( old: h3> send-to-modal)
+
+
         ELEM 9__2  form__field
                    ( old:> label-style-modal)
         ELEM 9__3  form__label
