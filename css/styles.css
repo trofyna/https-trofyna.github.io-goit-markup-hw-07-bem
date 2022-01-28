@@ -409,8 +409,6 @@ margin-bottom: 12px;
     border-radius: 4px;
     background-color: var(--prim-white-background);
     fill: var(--prim-white-background);
-    /* margin-left: 12px; */
-    /* margin-right: 9px; */
     text-align: start;
   }
   .checkbox:checked + .icon-check {
