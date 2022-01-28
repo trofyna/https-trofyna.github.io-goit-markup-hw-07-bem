@@ -312,7 +312,7 @@ margin-bottom: 12px;
  
 }
 
-.label-style-modal {
+.form__field {
     position: relative;
     display: flex;
     flex-direction: column;
