@@ -83,15 +83,30 @@ BLOCK 8 modal
                    ( old:> span-style-modal)
         ELEM 9__8  form__text
                    ( old:>fback)
+
 1 TIMES (checkbox)
         ELEM 9__6  form__field
-           MODIFICATOR  9__6--1             form__field--check
+                MODIFICATOR  9__6--1             form__field--check
                    ( old:> label-style-check)
         ELEM 9__7  form__input
-                   ( old:>input-style-modal)
-        ELEM 9__5  form__img (vector)
-                   ( old:>icon-svg-modal)
-                   
+                MODIFICATOR  9__7--1
+                form__input--check     
+                   ( old:>checkbox)
+        ELEM 9__8  form__img (vector)
+                MODIFICATOR  9__8--1
+                form__img (vector)--check
+                   ( old:>icon-check)
+
+1 TIMES (Условия)
+        ELEM 9__9  form__label
+                 MODIFICATOR  9__9--1
+                form__label--     
+                  ( old:> span-style-modal-condi)
+        ELEM 9__10  form__link
+                   ( old:>conditions)
+        ELEM 9__11  form__btn
+                   ( old:>btn-sendup)
+
 
                    
 
