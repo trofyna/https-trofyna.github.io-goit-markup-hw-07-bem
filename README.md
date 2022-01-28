@@ -97,7 +97,7 @@ BLOCK 8 modal
 1 TIMES (Условия)
         ELEM 9__9  form__label
                  MODIFICATOR  9__9--1
-                form__label--     
+                form__label--condition     
                   ( old:> span-style-modal-condi)
         ELEM 9__10  form__link
                    ( old:>conditions)

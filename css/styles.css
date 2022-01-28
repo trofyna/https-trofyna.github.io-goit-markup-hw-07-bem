@@ -319,21 +319,34 @@ margin-bottom: 12px;
     padding-left: 5px;
 }
 
-.span-style-modal {
-    /* position: relative; */
+.form__label {
+        font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: var(--sec-color);
+    text-align: start;
+    margin-bottom: 4px;
+
+}
+
+
+.form__label--condition {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    /* margin-left: 0px; */
     color: var(--sec-color);
-    text-align: start;
-    /* /* margin-top: 10px; */
-    margin-bottom: 4px;
-
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 4px;
+    text-align: none;
 }
+
 .input-style-modal {
     /* position: relative; */
     border-color: 1px solid rgba(33, 33, 33, 0.2);
@@ -442,21 +455,6 @@ margin-bottom: 12px;
    
 }
 
-
-.span-style-modal-condi {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    color: var(--sec-color);
-    margin-top: 20px;
-    margin-bottom: 30px;
-    /* margin-right: 51px; */
-    margin-left: 4px;
-    text-align: none;
-}
 
 .btn-sendup {
     font-family: Roboto;
