@@ -390,7 +390,7 @@ margin-bottom: 12px;
     margin-bottom: 20px;
     
 }
-.checkbox {
+.form__input--check {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -411,7 +411,7 @@ margin-bottom: 12px;
     fill: var(--prim-white-background);
     text-align: start;
   }
-  .checkbox:checked + .form__img--check {
+  .form__input--check:checked + .form__img--check {
     background-origin: border-box;
     border-color: var(--act-color);
     background-color: var(--act-color);
@@ -435,11 +435,11 @@ margin-bottom: 12px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-  .checkbox {
+  .form__input--check {
     position:absolute;
     transform: translateY(160%);
 }
-.conditions {
+.form__link {
     color: var(--act-color);
     text-decoration: underline;
    
