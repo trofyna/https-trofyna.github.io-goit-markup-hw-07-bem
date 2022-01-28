@@ -360,7 +360,7 @@ margin-bottom: 12px;
     cursor: pointer;
 }
 
-.icon-svg-modal {
+.form__img {
     position: absolute;
     transform: translateY(150%);
     margin-left: 12px;
@@ -427,8 +427,8 @@ margin-bottom: 12px;
 
 .form__input:hover,
 .form__input:focus,
-.form__input:focus + .icon-svg-modal,
-.form__input:hover + .icon-svg-modal,
+.form__input:focus + .form__img,
+.form__input:hover + .form__img,
 .fback:hover,
 .fback:focus {
   border-color: var(--act-color);
