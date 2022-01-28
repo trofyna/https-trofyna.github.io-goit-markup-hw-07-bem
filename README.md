@@ -66,12 +66,28 @@ BLOCK 8 modal
        ELEM 9__1  form__title
                    ( old: h3> send-to-modal)
 
-
+3 TIMES (Имя,Телефон,Почта)
         ELEM 9__2  form__field
                    ( old:> label-style-modal)
         ELEM 9__3  form__label
                    ( old:> span-style-modal)
         ELEM 9__4  form__input
+                   ( old:>input-style-modal)
+        ELEM 9__5  form__img (vector)
+                   ( old:>icon-svg-modal)
+
+1 TIMES (Комментарий)
+         ELEM 9__6  form__field
+                   ( old:> label-style-modal)
+        ELEM 9__7  form__label
+                   ( old:> span-style-modal)
+        ELEM 9__8  form__text
+                   ( old:>fback)
+1 TIMES (checkbox)
+        ELEM 9__6  form__field
+           MODIFICATOR  9__6--1             form__field--check
+                   ( old:> label-style-check)
+        ELEM 9__7  form__input
                    ( old:>input-style-modal)
         ELEM 9__5  form__img (vector)
                    ( old:>icon-svg-modal)
