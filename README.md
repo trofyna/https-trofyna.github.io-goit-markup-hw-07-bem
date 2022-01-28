@@ -70,7 +70,7 @@ BLOCK 8 modal
                    ( old:> span-style-modal)
         ELEM 9__4  form__input
                     ( old:> input-style-modal)
-        ELEM 9__5  form__img (ve ctor)
+        ELEM 9__5  form__img (vector)
                    ( old:>icon-svg-modal)
 
 1 TIMES (Комментарий)
