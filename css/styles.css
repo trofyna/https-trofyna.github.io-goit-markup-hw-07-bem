@@ -340,7 +340,7 @@ margin-bottom: 12px;
     text-align: none;
 }
 
-.input-style-modal {
+.form__input {
     /* position: relative; */
     border-color: 1px solid rgba(33, 33, 33, 0.2);
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -425,10 +425,10 @@ margin-bottom: 12px;
     padding-left: 12px;
   }
 
-.input-style-modal:hover,
-.input-style-modal:focus,
-.input-style-modal:focus + .icon-svg-modal,
-.input-style-modal:hover + .icon-svg-modal,
+.form__input:hover,
+.form__input:focus,
+.form__input:focus + .icon-svg-modal,
+.form__input:hover + .icon-svg-modal,
 .fback:hover,
 .fback:focus {
   border-color: var(--act-color);
