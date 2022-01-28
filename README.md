@@ -31,12 +31,15 @@ BLOCK 5 auth-nav
     (old:contacts)
     ELEM 5__1  auth-nav__links
                 (old:a-mail)
-    ELEM 5__2   auth-nav__img
-             (old:icon-envelopehover-svg)
+    ELEM 5__2  auth-nav__img
+               (old:icon-envelopehover-svg)
+            MODIFICATOR  5__2--1             auth-nav__img--wider
     ELEM 5__3  auth-nav__links
                 (old:a-mail)
     ELEM 5__4   auth-nav__img
              (old:icon-mobile-svg)
+            MODIFICATOR  5__4--1             auth-nav__img--higher
+    
 
 BLOCK 6 hero
     ELEM 6__1  hero__title
@@ -53,9 +56,34 @@ BLOCK 8 modal
                 (old: close)
     ELEM 8__4  modal__send
                 ( old:send-to-modal)
-        BLOCK 9.0 FORM
-                ELEM 8__5  modal__form
-                ( old:js-speaker-formM)
+    
+    ELEM 8__5  modal__form
+                 ( old:div> send-to-modal)
+                
+        BLOCK 9.0 form
+                (old:modal-form;
+                 js-contact-form;
+                  js-speaker-formM)
+
+       ELEM 9__1  form__title
+                   ( old:h3> send-to-modal)
+        ELEM 9__2  form__field
+                   ( old:> label-style-modal)
+        ELEM 9__3  form__label
+                   ( old:> span-style-modal)
+        ELEM 9__4  form__input
+                   ( old:>input-style-modal)
+        ELEM 9__5  form__img (vector)
+                   ( old:>icon-svg-modal)
+                   
+
+                   
+
+
+        
+        
+
+
     
 
 
