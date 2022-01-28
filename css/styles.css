@@ -347,7 +347,6 @@ margin-bottom: 12px;
 }
 
 .form__input {
-    /* position: relative; */
     border-color: 1px solid rgba(33, 33, 33, 0.2);
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
