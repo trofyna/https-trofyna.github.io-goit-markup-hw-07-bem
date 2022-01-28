@@ -103,6 +103,11 @@ BLOCK 8 modal
                    ( old:>conditions)
         ELEM 9__11  form__btn
                    ( old:>btn-sendup)
+                   
+BLOCK 10 section
+        section--
+         MODIFICATOR  10__--1
+         ( old:> section> advanta)
 
 
                    
