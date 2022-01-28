@@ -1,8 +1,5 @@
  https-trofyna.github.io-goit-markup-hw-07-bem
-
-
 <!-- Structure for BEM -->
-
 <!-- 
 BLOCK 1 page-header
 BLOCK 2  container
