@@ -1,6 +1,6 @@
 (() => {
     document
-      .querySelector('.js-speaker-form')
+      .querySelector('.js-speaker-form', '.js-contact-form')
       .addEventListener('submit', e => {
         e.preventDefault();
         new FormData(e.currentTarget).forEach((value, name) =>
