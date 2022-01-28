@@ -318,7 +318,13 @@ margin-bottom: 12px;
     flex-direction: column;
     padding-left: 5px;
 }
-
+.form__field--check {
+    display: inline-block;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    text-align: start;
+    padding-left: 12px;
+  }
 .form__label {
     font-family: Roboto;
     font-style: normal;
@@ -417,13 +423,7 @@ margin-bottom: 12px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-  .form__field--check {
-    display: inline-block;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    text-align: start;
-    padding-left: 12px;
-  }
+  
 
 .form__input:hover,
 .form__input:focus,
