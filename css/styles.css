@@ -404,14 +404,14 @@ margin-bottom: 12px;
     transform: translateX(-50%);
   }
 
-  .icon-check {
+  .form__img--check {
     border: 2px solid var(--main-color);
     border-radius: 4px;
     background-color: var(--prim-white-background);
     fill: var(--prim-white-background);
     text-align: start;
   }
-  .checkbox:checked + .icon-check {
+  .checkbox:checked + .form__img--check {
     background-origin: border-box;
     border-color: var(--act-color);
     background-color: var(--act-color);
