@@ -1,6 +1,6 @@
 (() => {
     document
-      .querySelector('.js-speaker-form', '.modal__form')
+      .querySelector('.js-speaker-form', '.form')
       .addEventListener('submit', e => {
         e.preventDefault();
         new FormData(e.currentTarget).forEach((value, name) =>

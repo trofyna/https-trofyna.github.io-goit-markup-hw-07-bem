@@ -63,6 +63,7 @@
                 <section class="hero">
                   <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                   <button data-modal-open class="hero__btn"  type="button">Заказать услугу</button>
+                 <!-- backdrop is hidden--> 
                   <div data-modal class="backdrop is-hidden"> 
                     <div class="modal">
                       <div class="modal__exit">
@@ -76,9 +77,9 @@
                     </button>
                     </div>
                       <!-- SEND TO FORM in Modal window-->
-                      <div class="send-to-modal">
-                        <form action="true" class="modal__form">
-                      <h3 class="send-to-modal">Оставьте свои данные, мы вам перезвоним</h3>
+                      <div class="modal-form">
+                        <form action="true" class="form">
+                      <h3 class="form__title">Оставьте свои данные, мы вам перезвоним</h3>
                       <label class="label-style-modal" >
                        <span class="span-style-modal">Имя</span>
                       <input type="text" name="username" autofocus class="input-style-modal"/>
