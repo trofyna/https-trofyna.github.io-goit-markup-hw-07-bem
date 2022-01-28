@@ -105,9 +105,8 @@ BLOCK 8 modal
                    ( old:>btn-sendup)
                    
 BLOCK 10 section
-        section--
-         MODIFICATOR  10__--1
-         ( old:> section> advanta)
+ELEM 10__1  section__title
+                   ( old:> hedden-elem )
 
 
                    
