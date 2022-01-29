@@ -116,6 +116,9 @@ BLOCK 11 container
 
 BLOCK 12 advantages
             ( old:> ul>)
+
+3 TIMES (icon-antenna,icon-clock,icon-diagram,icon-diagram )
+
 ELEM 12__1  advantages__block
                    ( old:>li> list-advantages )
 ELEM 12__2  advantages__item
@@ -126,6 +129,22 @@ ELEM 12__4  advantages__title
                    ( old:> h3> advantages)
 ELEM 12__5  advantages__text
                    ( old:> p> advantages-text)
+
+BLOCK 13 section
+            MODIFICATOR  13--1
+                section--do
+                  ( old:> section do)
+ELEM 13__1  section__title--fontst
+               MODIFICATOR  13__1--1 section__title--fontst
+BLOCK 14 container
+3 TIMES 
+(Десктопные приложения,Мобильные приложения,Дизайнерские решения)
+BLOCK 15 products (list-image-do)
+ELEM 15__1 products__thumb
+ELEM 15__2 products__image
+ELEM 15__3 products__title
+
+
 
 
 
