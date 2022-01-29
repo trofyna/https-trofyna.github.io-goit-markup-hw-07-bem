@@ -505,17 +505,17 @@ h2 .container,
     max-width: 270px;
 }
 
-.list-advantages {
+.advantages__block {
     display: flex;
     display: inline-block;
     margin-left: 30px;      
 }
 
-.list-advantages:first-child {
+.advantages__block:first-child {
     margin-left: 0px;
   }
   
-.list-advantages:last-child {
+.advantages__block:last-child {
     margin-right: 0px;
  }
 
