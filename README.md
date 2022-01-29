@@ -110,14 +110,30 @@ ELEM 10__1  section__title
             MODIFICATOR  10__1--1
                 section__title--hedden-elem 
                   ( old:> hedden-elem)
+                 
 BLOCK 11 container
             MODIFICATOR  11__1--1
                 container--rght
                   ( old:> container advant)
-BLOCK 11 list
-ELEM 10__1  section__title
-                   ( old:> hedden-elem )
-            MODIFICATOR  10__1--1
+                  
+BLOCK 12 advantages
+            ( old:> ul>)
+ELEM 12__1  advantages__block
+                   ( old:>li> list-advantages )
+ELEM 12__2  advantages__item
+                   ( old:> div> icon-antenna )
+ELEM 12__3  advantages__image
+                   ( old:> svg> icon-antenna-svg)
+ELEM 12__4  advantages__title
+                   ( old:> h3> advantages)
+ELEM 12__5  advantages__text
+                   ( old:> p> advantages-text)
+
+
+
+
+ 
+
 
                    
 

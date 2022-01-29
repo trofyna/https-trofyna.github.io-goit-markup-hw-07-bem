@@ -488,7 +488,7 @@ margin-bottom: 12px;
     height: 70px;
     }
 
-.advantages,
+.advantages__title,
 .advantages-text,
 h2 .container,
 .list-image-do,
@@ -523,7 +523,7 @@ h2 .container,
      padding-right: 0px;
  }
 
-.advantages,
+.advantages__title,
 .join
 .item-do {
     font-family: Roboto;
