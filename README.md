@@ -132,7 +132,7 @@ ELEM 12__5  advantages__text
 
 BLOCK 13 section
             MODIFICATOR  13--1
-                section--do
+                section--down
                   ( old:> section do)
 ELEM 13__1  section__title--fontst
                MODIFICATOR  13__1--1 section__title--fontst
