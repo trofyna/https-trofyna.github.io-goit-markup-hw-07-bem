@@ -601,12 +601,12 @@ margin-bottom: 12px;
     border-radius: 0px 0px 4px 4px;
    }
 
-h3.img-name {
+h3.team__title {
     /* padding-top: 30px; */
     padding-bottom: 10px;
 }
 
-/* p.img-proff {
+/* p.team__text {
      padding-bottom: 30px;
 } */
 
@@ -618,7 +618,7 @@ img {
     display: inline-block;
 }
 
-.img-name {
+.team__title {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -630,7 +630,7 @@ img {
 
 }
 
-.img-proff {
+.team__text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
