@@ -467,10 +467,7 @@ margin-bottom: 12px;
 
 /* ===============Advantages styles 🧐 starts here========== */
 
-.icon-antenna,
-.icon-clock1,
-.icon-diagram1,
-.icon-astronaut1 {
+.advantages__item {
     display: flex;
     justify-content: center;
     align-items: center;
