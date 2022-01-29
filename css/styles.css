@@ -483,7 +483,7 @@ margin-bottom: 12px;
     }
 
 .advantages__title,
-.advantages-text,
+.advantages__text,
 .container--rght,
 .list-image-do,
 .list-image-team {
@@ -495,7 +495,7 @@ margin-bottom: 12px;
     margin: 94px 215px;
 }
 
-.advantages-text {
+.advantages__text {
     max-width: 270px;
 }
 
@@ -530,7 +530,7 @@ margin-bottom: 12px;
     color: var(--main-color);
 }
 
-.advantages-text {
+.advantages__text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
