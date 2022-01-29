@@ -134,8 +134,8 @@ BLOCK 13 section
             MODIFICATOR  13--1
                 section--down
                   ( old:> section do)
-ELEM 13__1  section__title--fontst
-               MODIFICATOR  13__1--1 section__title--fontst
+ELEM 13__1  section__title
+               MODIFICATOR  13__1--1 section__title--base
                (doing)
 BLOCK 14 container
 3 TIMES 
@@ -146,7 +146,13 @@ ELEM 15__2 suggestion__image (image-do)
 ELEM 15__3 suggestion__title (item-do)
 
 
-
+BLOCK 16 section
+            MODIFICATOR  16--1
+                section--bckgrnd
+                  ( old:> section bgteam)
+ELEM 16__1  section__title
+               MODIFICATOR  16__1--1 section__title--base
+               (team)
 
 
 

@@ -519,7 +519,7 @@ margin-bottom: 12px;
 
 .advantages__title,
 .join
-.item-do {
+.suggestion__title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -547,7 +547,7 @@ margin-bottom: 12px;
     padding-bottom: 94px;
 }
 
-.section__title--fontst,
+.section__title--base,
 .team,
 .regular-clients {
     margin: 0 auto;
@@ -560,15 +560,15 @@ margin-bottom: 12px;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
-.section__title--fontst,
+.section__title--base,
 .team,
 .regular-clients {
      margin-bottom: 50px;
 }
-.product-thumb {
+.suggestion__thumb {
     position: relative;
 }
-.item-do {
+.suggestion__title {
     width: 100%;
     height: 70px;
     position: absolute;
@@ -616,7 +616,7 @@ img {
     display: block;
 }
 
-.image-do li {
+.suggestion__image li {
     display: inline-block;
 }
 
