@@ -477,10 +477,7 @@ margin-bottom: 12px;
     /* outline: 1px solid #2196F3; */
     background: #F5F4FA;
 }
-.icon-antenna-svg,
-.icon-clock1-svg,
-.icon-diagram1-svg,
-.icon-astronaut1-svg {
+.advantages__image {
     width: 70px;
     height: 70px;
     }
@@ -494,7 +491,7 @@ h2 .container,
     justify-content: space-between;
 }
 
-.container >.hedden-elem {
+.section__title >.hedden-elem {
     margin: 94px 215px;
 }
 
@@ -516,7 +513,7 @@ h2 .container,
     margin-right: 0px;
  }
 
- .advant {
+ .container--rght {
      padding-right: 0px;
  }
 

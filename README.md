@@ -107,15 +107,13 @@ ELEM 9__11  form__btn
 BLOCK 10 section
 ELEM 10__1  section__title
                    ( old:> hedden-elem )
-            MODIFICATOR  10__1--1
-                section__title--hedden-elem 
-                  ( old:> hedden-elem)
+                 +  .hedden-elem
                  
 BLOCK 11 container
             MODIFICATOR  11__1--1
                 container--rght
                   ( old:> container advant)
-                  
+
 BLOCK 12 advantages
             ( old:> ul>)
 ELEM 12__1  advantages__block
