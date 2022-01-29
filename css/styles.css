@@ -486,7 +486,7 @@ margin-bottom: 12px;
 .advantages__text,
 .container--rght,
 .suggestion,
-.list-image-team {
+.team {
     display: flex;
     justify-content: space-between;
 }

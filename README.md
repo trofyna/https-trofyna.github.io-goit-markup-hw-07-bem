@@ -155,19 +155,19 @@ ELEM 16__1  section__title
                (team)
 BLOCK 17 container (div>container)
 BLOCK 18 team (ul> list-image-team)
+
+4 times (Игорь,Ольга,Николай,Михаил,)
 ELEM 18__1 team__image (li>card-point)
 ELEM 18__2 team__block (div>card-team)
 ELEM 18__3 team__title (h3>img-name)
 ELEM 18__4 team__text (p>img-proff)
 --------------------Это и есть МИКС.------------------
 -В этом месте блок social стал ещё и элементом  BLOCK 18 team---
-BLOCK 19.0  social
-ELEM 19__1  social__link 
-             MODIFICATOR  4__1--1   logo__text--black
-                            (old:logo-color-black)
-             MODIFICATOR  4__1--2    logo__text--white   
-                            (old:logo-color-white)
-
+BLOCK 19.0  social (ul)
+4 times (instagram,twitter,fb,linkedin,)
+ELEM 19__1  social__point (li> social-link)
+ELEM 19__2  social__link (> а> btn-soc)
+ELEM 19__3  social__img (> soc-icon-svg)
 
 
 
