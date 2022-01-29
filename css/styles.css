@@ -548,7 +548,6 @@ margin-bottom: 12px;
 }
 
 .section__title--base,
-.team,
 .regular-clients {
     margin: 0 auto;
     font-family: Roboto;
@@ -561,7 +560,6 @@ margin-bottom: 12px;
     color: var(--main-color);
 }
 .section__title--base,
-.team,
 .regular-clients {
      margin-bottom: 50px;
 }
@@ -644,7 +642,7 @@ img {
 
 }
 
-.bgteam {
+.section--bckgrnd {
     padding-bottom: 94px;
     background-color: var(--thir-grey-white-background);
 }
