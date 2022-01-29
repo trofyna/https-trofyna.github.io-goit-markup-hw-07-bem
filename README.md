@@ -136,6 +136,7 @@ BLOCK 13 section
                   ( old:> section do)
 ELEM 13__1  section__title--fontst
                MODIFICATOR  13__1--1 section__title--fontst
+               (doing)
 BLOCK 14 container
 3 TIMES 
 (Десктопные приложения,Мобильные приложения,Дизайнерские решения)

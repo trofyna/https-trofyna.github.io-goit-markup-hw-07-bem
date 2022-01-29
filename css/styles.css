@@ -485,7 +485,7 @@ margin-bottom: 12px;
 .advantages__title,
 .advantages__text,
 .container--rght,
-.list-image-do,
+.suggestion,
 .list-image-team {
     display: flex;
     justify-content: space-between;
@@ -547,7 +547,7 @@ margin-bottom: 12px;
     padding-bottom: 94px;
 }
 
-.doing,
+.section__title--fontst,
 .team,
 .regular-clients {
     margin: 0 auto;
@@ -560,7 +560,7 @@ margin-bottom: 12px;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
-.doing,
+.section__title--fontst,
 .team,
 .regular-clients {
      margin-bottom: 50px;
