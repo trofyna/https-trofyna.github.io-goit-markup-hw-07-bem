@@ -484,7 +484,7 @@ margin-bottom: 12px;
 
 .advantages__title,
 .advantages-text,
-h2 .container,
+.container--rght,
 .list-image-do,
 .list-image-team {
     display: flex;
