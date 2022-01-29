@@ -6,61 +6,61 @@ BLOCK 2  container
 BLOCK 3 site-nav (old - не было class)
 --------------------Это и есть МИКС.------------------
 --В этом месте блок logo стал ещё и элементом  BLOCK 3 site-nav----
-  BLOCK 4.0  logo
-        ELEM 4__1  logo__text  
+BLOCK 4.0  logo
+ELEM 4__1  logo__text  
              MODIFICATOR  4__1--1   logo__text--black
                             (old:logo-color-black)
              MODIFICATOR  4__1--2    logo__text--white   
                             (old:logo-color-white)
-    ELEM 3__1  site-nav__links
+ELEM 3__1  site-nav__links
                 (old:links)
-    ELEM 3__2   site-nav__item
+ELEM 3__2   site-nav__item
              MODIFICATOR  3__2--1   site-nav__item--active
                 (old:link-nav-index) in PORTF: link-nav
-    ELEM 3__3   site-nav__item
+ELEM 3__3   site-nav__item
             MODIFICATOR  3__3--1   site-nav__item--active
                 (old:link-nav) in PORTF:  link-nav-portfolio
-    ELEM 3__4   site-nav__item
+ELEM 3__4   site-nav__item
                 (old:link-nav)
 
 
 BLOCK 5 auth-nav 
     (old:contacts)
-    ELEM 5__1  auth-nav__links
+ELEM 5__1  auth-nav__links
                 (old:a-mail)
-    ELEM 5__2  auth-nav__img
+ELEM 5__2  auth-nav__img
                (old:icon-envelopehover-svg)
             MODIFICATOR  5__2--1             auth-nav__img--wider
-    ELEM 5__3  auth-nav__links
+ELEM 5__3  auth-nav__links
                 (old:a-mail)
-    ELEM 5__4   auth-nav__img
+ELEM 5__4   auth-nav__img
              (old:icon-mobile-svg)
             MODIFICATOR  5__4--1             auth-nav__img--higher
     
 
 BLOCK 6 hero
-    ELEM 6__1  hero__title
+ELEM 6__1  hero__title
                 (old:hero-title)
-    ELEM 6__2  hero__btn
+ELEM 6__2  hero__btn
                  (old:hero-btn)
 BLOCK 7 backdrop is-hidden
 BLOCK 8 modal
-    ELEM 8__1  modal__exit
+ELEM 8__1  modal__exit
                 ( old:exit)
-    ELEM 8__2  modal__btn
+ELEM 8__2  modal__btn
                 (old: btn-exit-modal)
-    ELEM 8__3  modal__img
+ELEM 8__3  modal__img
                 (old: close)
         
-    ELEM 8__4  modal__form
+ELEM 8__4  modal__form
                  ( old: div> send-to-modal)
                 
-        BLOCK 9.0 form
+    BLOCK 9.0 form
                 (old:modal-form;
                  js-contact-form;
                   js-speaker-formM)
 
-       ELEM 9__1  form__title
+ELEM 9__1  form__title
                    ( old: h3> send-to-modal)
 
 3 TIMES (Имя,Телефон,Почта)
@@ -82,32 +82,42 @@ BLOCK 8 modal
                    ( old:>fback)
 
 1 TIMES (checkbox)
-        ELEM 9__6  form__field
+ELEM 9__6  form__field
                 MODIFICATOR  9__6--1        form__field--check
                    ( old:> label-style-check)
-        ELEM 9__7  form__input
+ELEM 9__7  form__input
                 MODIFICATOR  9__7--1
                 form__input--check     
                    ( old:>checkbox)
-        ELEM 9__8  form__img (vector)
+ELEM 9__8  form__img (vector)
                 MODIFICATOR  9__8--1
                 form__img (vector)--check
                    ( old:>icon-check)
 
 1 TIMES (Условия)
-        ELEM 9__9  form__label
+ELEM 9__9  form__label
                  MODIFICATOR  9__9--1
                 form__label--condition     
                   ( old:> span-style-modal-condi)
-        ELEM 9__10  form__link
+ELEM 9__10  form__link
                    ( old:>conditions)
-        ELEM 9__11  form__btn
+ELEM 9__11  form__btn
                    ( old:>btn-sendup)
                    
 BLOCK 10 section
 ELEM 10__1  section__title
                    ( old:> hedden-elem )
-
+            MODIFICATOR  10__1--1
+                section__title--hedden-elem 
+                  ( old:> hedden-elem)
+BLOCK 11 container
+            MODIFICATOR  11__1--1
+                container--rght
+                  ( old:> container advant)
+BLOCK 11 list
+ELEM 10__1  section__title
+                   ( old:> hedden-elem )
+            MODIFICATOR  10__1--1
 
                    
 
