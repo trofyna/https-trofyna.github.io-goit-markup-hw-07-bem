@@ -139,10 +139,10 @@ ELEM 13__1  section__title--fontst
 BLOCK 14 container
 3 TIMES 
 (Десктопные приложения,Мобильные приложения,Дизайнерские решения)
-BLOCK 15 products (list-image-do)
-ELEM 15__1 products__thumb
-ELEM 15__2 products__image
-ELEM 15__3 products__title
+BLOCK 15 suggestion (list-image-do)
+ELEM 15__1 suggestion__thumb (product-thumb)
+ELEM 15__2 suggestion__image (image-do)
+ELEM 15__3 suggestion__title (item-do)
 
 
 
