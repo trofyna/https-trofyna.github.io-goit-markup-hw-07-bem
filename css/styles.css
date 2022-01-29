@@ -594,7 +594,7 @@ margin-bottom: 12px;
       1px 4px 6px rgba(0, 0, 0, 0.16);
    
     }
-.card-team {
+.team__block {
     padding-top: 30px;
     padding-bottom: 30px;
     background: var(--prim-white-background);
