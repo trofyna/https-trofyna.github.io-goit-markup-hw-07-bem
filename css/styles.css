@@ -918,17 +918,14 @@ h2.product {
 /* ===============Portfolio styles 🧐 ends here========== */
 
 /* ===============Footer styles 🧐 starts here========== */
-.footer {
+.page-footer {
     background: #2f303a;
     padding: 60px 0;
     max-width: 1600px;
     margin: 0px auto;
     margin-top: 94px;
     }
-/* 
-footer a.logo {
-    margin-bottom: 20px;
-} */
+
 .logo-address-join-soc {
     display: flex;
     justify-content: flex-start;
@@ -943,11 +940,7 @@ footer a.logo {
     flex-wrap: wrap;
     padding-top: 20px;
 }
-/* .logo-address {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-} */
+
 .address {
 font-family: Roboto;
 font-style: normal;
@@ -977,8 +970,7 @@ color: #FFFFFF;
     color: var(--prim-white-background);
 }
 .join-column {
-    /* display: flex;
-    flex-direction: column; */
+   
     margin-left: 70px;
     margin-right: 93px;
 } 

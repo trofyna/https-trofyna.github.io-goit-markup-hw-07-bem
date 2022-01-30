@@ -185,6 +185,9 @@ BLOCK 23  clients__item (li> client)
 BLOCK 24  clients__link (a> btn-client)
 BLOCK 25  clients__image (svg> client-icon-svg)
 
+BLOCK 26  page-footer
+BLOCK 27  container
+
 
 
 
