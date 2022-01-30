@@ -668,7 +668,7 @@ img {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.soc-icon-svg
+.social__img
  {
     width: 20px;
     height: 20px;
@@ -684,8 +684,8 @@ img {
 
 .social__link:focus,
 .social__link:hover,
-.soc-icon-svg:hover,
-.soc-icon-svg:focus
+.social__img:hover,
+.social__img:focus
 {
     background: var(--act-color);
     fill: #FFFFFF;
