@@ -656,7 +656,7 @@ img {
     margin-right: 0px;
 }
 
-.btn-soc {
+.social__link {
     width: 44px;
     height: 44px;
     display: flex;
@@ -682,8 +682,8 @@ img {
         height: 60px;
      }
 
-.btn-soc:focus,
-.btn-soc:hover,
+.social__link:focus,
+.social__link:hover,
 .soc-icon-svg:hover,
 .soc-icon-svg:focus
 {
