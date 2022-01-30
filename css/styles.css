@@ -713,7 +713,7 @@ img {
     width: 170px;
     height: 92px;
   }
-  .btn-client {
+  .clients__link {
     width: 170px;
     height: 92px;
     display: flex;
@@ -730,8 +730,8 @@ img {
     
   }
 
-.btn-client:focus,
-.btn-client:hover {
+.clients__link:focus,
+.clients__link:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
