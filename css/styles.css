@@ -702,14 +702,14 @@ img {
     justify-content: center;
     align-content: center;
   }
-  .clients > .client {
+  .clients > .clients__item {
     margin-right: 30px;
     text-align: center;
   }
-  .clients .client:last-child {
+  .clients .clients__item:last-child {
     margin: 0;
   }
-  .client {
+  .clients__item {
     flex-basis: calc(100% / 6)-30px;
     width: 170px;
     height: 92px;
