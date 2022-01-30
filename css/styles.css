@@ -688,7 +688,7 @@ img {
     background: var(--act-color);
     fill: #FFFFFF;
 }
-.connect {
+.social__link--lghtbckgrnd {
     fill: #FFFFFF;
 }
 /* ===============DOING & team styles 🧐 ends here========== */
@@ -737,7 +737,7 @@ img {
   border: 1px solid #2196f3;
 }
 
-.connect {
+.social__link--lghtbckgrnd {
     background: rgba(255, 255, 255, 0.1);
   }
 /* ===============Regular clients styles 🧐 ends here========== */

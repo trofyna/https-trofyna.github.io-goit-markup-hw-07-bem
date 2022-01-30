@@ -166,14 +166,28 @@ ELEM 18__4 team__text (p>img-proff)
 BLOCK 19.0  social (ul)
 4 times (instagram,twitter,fb,linkedin,)
 ELEM 19__1  social__point (li> social-link)
-ELEM 19__2  social__link (> а> btn-soc)
+ELEM 19__2  social__link (а> btn-soc)
+        for FOOTER MODIFICATOR  
+        19__2--1 social__link--lghtbckgrnd ( а> btn-soc connect)
+
 ELEM 19__3  social__img (> soc-icon-svg)
+
 
 BLOCK 20  section
 BLOCK 21  container
 ELEM  21__1  section__title
                MODIFICATOR  16__1--1 section__title--base
                ( old:> regular clients)
+BLOCK 22  clients (ul>)
+
+6 times for logo from 1 to 6
+BLOCK 23  clients__item (li> client)
+BLOCK 24  clients__link (a> btn-client)client-icon-svg
+BLOCK 25  clients__image (svg> btn-client)
+
+
+
+
 
 
 
