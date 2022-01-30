@@ -649,10 +649,10 @@ img {
     /* margin-bottom: 30px; */
 }
 
-.social-link {
+.social__point {
     margin-right: 10px;
 }
-.social-link:last-child {
+.social__point:last-child {
     margin-right: 0px;
 }
 
