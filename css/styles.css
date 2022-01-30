@@ -666,8 +666,7 @@ img {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.social__img
- {
+.social__img {
     width: 20px;
     height: 20px;
     transition-property: fill, background-color;
