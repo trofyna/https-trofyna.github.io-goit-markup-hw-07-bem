@@ -187,6 +187,8 @@ BLOCK 25  clients__image (svg> client-icon-svg)
 
 BLOCK 26  page-footer
 BLOCK 27  container
+            MODIFICATOR  27--1 container--flex
+               (div>container + div> logo-address-join-soc)
 
 
 

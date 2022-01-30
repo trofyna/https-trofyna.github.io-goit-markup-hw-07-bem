@@ -926,7 +926,7 @@ h2.product {
     margin-top: 94px;
     }
 
-.logo-address-join-soc {
+.container--flex{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
