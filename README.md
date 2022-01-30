@@ -169,6 +169,12 @@ ELEM 19__1  social__point (li> social-link)
 ELEM 19__2  social__link (> а> btn-soc)
 ELEM 19__3  social__img (> soc-icon-svg)
 
+BLOCK 20  section
+BLOCK 21  container
+ELEM  21__1  section__title
+               MODIFICATOR  16__1--1 section__title--base
+               ( old:> regular clients)
+
 
 
 
