@@ -233,6 +233,11 @@ cblock 38 list-btn
             list-btn__item  list-btn__item--maincolor
             list-btn__item   list-btn__item--maincolor
             list-btn__item   list-btn__item--maincolor
+cblock 39 portfolio-list (container-main-por)
+elem portfolio-list__item (card-portfolio)
+            modi portfolio-list__item--one...
+        ... modi portfolio-list__item--nine
+
 
 
 
