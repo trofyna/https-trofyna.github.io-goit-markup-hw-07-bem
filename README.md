@@ -192,9 +192,13 @@ BLOCK 27  container
 
 BLOCK 28  container
 
-BLOCK 29 
-
-
+BLOCK 29  logo-address
+BLOCK 30 logo as in header
+    logo__text 
+        logo__text--white
+BLOCK 31 UL.list-address
+     address-footer
+     address-footeR
 
 
 

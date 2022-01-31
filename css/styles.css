@@ -934,14 +934,14 @@ h2.product {
 }
 
 
-.list-address {
+.footer-contact {
     max-width: 230px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
 }
 
-.address {
+.footer-contact__item--white {
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -951,7 +951,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 
 }
-.address-footer {
+.footer-contact__item {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
