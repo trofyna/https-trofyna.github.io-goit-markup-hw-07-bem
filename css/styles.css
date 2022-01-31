@@ -787,7 +787,7 @@ line-height: 36px;
 letter-spacing: 0.06em;
 color: var(--main-color);
 }  
-.type-product {
+.portfolio-list__text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
