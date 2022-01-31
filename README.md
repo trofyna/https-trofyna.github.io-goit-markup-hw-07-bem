@@ -196,9 +196,33 @@ BLOCK 29  logo-address
 BLOCK 30 logo as in header
     logo__text 
         logo__text--white
-BLOCK 31 UL.list-address
-     address-footer
-     address-footeR
+BLOCK 31 footer-contact  (ul>list-address)
+31__1 elem  footer-contact__item
+        modi footer-contact__item--white
+31__2 elem  footer-contact__item (li>address-footer)
+31__3 elem  footer-contact__item  (address-footer)
+
+BLOCK 32  join  (join-colum)
+elem32__1  join__title (join)
+
+--------------------Это и есть МИКС.------------------
+-В этом месте блок social стал ещё и элементом  BLOCK 18 team---
+BLOCK 33 
+like 19.0  social (ul)
+4 times (instagram,twitter,fb,linkedin,)
+ELEM 19__1  social__point (li> social-link)
+ELEM 19__2  social__link (а> btn-soc)
+        for FOOTER MODIFICATOR  
+        19__2--1 social__link--lghtbckgrnd ( а> btn-soc connect)
+
+ELEM 19__3  social__img (> soc-icon-svg)
+
+BLOCK 34
+
+
+
+
+
 
 
 

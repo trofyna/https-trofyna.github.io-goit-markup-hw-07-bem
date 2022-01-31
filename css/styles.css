@@ -518,7 +518,7 @@ margin-bottom: 12px;
  }
 
 .advantages__title,
-.join
+.join__title
 .suggestion__title {
     font-family: Roboto;
     font-style: normal;
@@ -941,16 +941,6 @@ h2.product {
     padding-top: 20px;
 }
 
-.footer-contact__item--white {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-
-}
 .footer-contact__item {
     font-family: Roboto;
     font-style: normal;
@@ -961,7 +951,11 @@ color: #FFFFFF;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.join {
+.footer-contact__item--white {
+color: #FFFFFF;
+}
+
+.join__title {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.17;
@@ -969,7 +963,7 @@ color: #FFFFFF;
     margin-bottom: 20px;
     color: var(--prim-white-background);
 }
-.join-column {
+.join {
    
     margin-left: 70px;
     margin-right: 93px;
