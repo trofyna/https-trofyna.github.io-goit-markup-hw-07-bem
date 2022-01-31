@@ -778,7 +778,7 @@ img {
     border-radius: 4px;
     }
 
-.product {
+.portfolio-list__title {
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -823,7 +823,7 @@ color: var(--main-color);
              1px 4px 6px rgba(0, 0, 0, 0.16);
             }
 
-h2.product {
+h2.portfolio-list__title {
     margin-bottom: 4px;
 }
 .portfolio-list__link  {

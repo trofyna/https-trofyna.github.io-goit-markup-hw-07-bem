@@ -227,16 +227,25 @@ script current
 block  36 section ( portfolio)
              modi  section--down
 hedden-elem h1>
-block 37 container
-cblock 38 list-btn
+block 37 container div>
+cblock 38 list-btn ul>
             list-btn__item  list-btn__item--shadow
             list-btn__item  list-btn__item--maincolor
             list-btn__item   list-btn__item--maincolor
             list-btn__item   list-btn__item--maincolor
-cblock 39 portfolio-list (container-main-por)
-elem portfolio-list__item (card-portfolio)
+
+cblock 39 portfolio-list ul>(container-main-por)
+elem portfolio-list__item li>(card-portfolio)
             modi portfolio-list__item--one...
         ... modi portfolio-list__item--nine
+elem portfolio-list__link a> 
+img>       
+elem portfolio-list__info div>>
+elem portfolio-list__kryak div>
+elem portfolio-list__title h2>
+elem portfolio-list__text p>
+
+
 
 
 
