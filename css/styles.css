@@ -836,7 +836,7 @@ h2.portfolio-list__title {
     padding-bottom: 20px;
     padding-left: 24px;
 }
-.kryak {
+.portfolio-list__kryak {
     position: absolute;
     width: 370px;
     height: 294px;
@@ -845,7 +845,7 @@ h2.portfolio-list__title {
     overflow: hidden;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .kryak::before {
+  .portfolio-list__kryak::before {
     position: absolute;
     content: 'Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.';
     width: 370px;
@@ -864,7 +864,7 @@ h2.portfolio-list__title {
     background-color: rgba(33, 150, 243, 0.9);
   }
    
-  .portfolio-list__item:hover .kryak:before {
+  .portfolio-list__item:hover .portfolio-list__kryak:before {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(-100%);
   }

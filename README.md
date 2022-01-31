@@ -246,43 +246,6 @@ elem portfolio-list__title h2>
 elem portfolio-list__text p>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-                   
-
-
-        
-        
-
-
-    
-
-
-
-
-
-
-
  -->
 
 
