@@ -810,10 +810,8 @@ color: var(--main-color);
     outline: 1px solid red;
     margin: 0 auto;
     display: flex;
-    /* justify-content: space-between; */
     flex-wrap: wrap;
-    /* max-width: 1170px; */
-    /* position: relative; */
+    
    
 }
 .card-portfolio {
@@ -848,7 +846,6 @@ h2.product {
 }
 
 .name-product {
-    /* position: relative; */
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;
@@ -881,11 +878,7 @@ h2.product {
     color: #ffffff;
     background-color: rgba(33, 150, 243, 0.9);
   }
-    /* .kryak:hover::before,
-    a.container-main-por:hover::before {
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translateY(-100%);
-  } */
+   
   .card-portfolio:hover .kryak:before {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(-100%);
