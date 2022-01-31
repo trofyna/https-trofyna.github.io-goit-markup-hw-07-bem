@@ -217,9 +217,12 @@ ELEM 19__2  social__link (а> btn-soc)
 
 ELEM 19__3  social__img (> soc-icon-svg)
 
-BLOCK 34
+BLOCK 34  sign-up div>
+block  35 js-speaker-form form >
 
 
+script modal
+script current
 
 
 
